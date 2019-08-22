@@ -6,7 +6,7 @@ apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "29.0.1"
+    buildToolsVersion "29.0.2"
     defaultConfig {
         applicationId "com.fulltime.financaskotlin"
         minSdkVersion 22
@@ -39,4 +39,5 @@ dependencies {
     implementation 'com.google.android.material:material:1.1.0-alpha09'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'com.github.clans:fab:1.6.4'
+    implementation 'org.koin:koin-android:2.0.1'
 }
